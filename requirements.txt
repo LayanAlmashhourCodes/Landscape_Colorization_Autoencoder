@@ -1,0 +1,6 @@
+tensorflow>=2.15
+numpy
+scikit-image>=0.19
+matplotlib
+Pillow
+kaggle
