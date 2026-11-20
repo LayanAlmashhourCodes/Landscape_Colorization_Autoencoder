@@ -9,7 +9,6 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/landscape-colorization-autoencoder/blob/main/notebooks/landscape_colorization.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-<img src="assets/hero.png" width="620" alt="Grayscale input, model output, and ground truth for two landscape photos">
 
 **PSNR 27.51 dB · SSIM 0.952** on 100 test images
 
@@ -17,7 +16,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Colorization is an **ill-posed** problem: one gray value could come from a blue sky, a green field, or a brown rock. The model has to learn *context*: what a sky looks like, where vegetation usually sits, how mountains are shaded.
 
@@ -31,7 +30,7 @@ The most interesting part of this project wasn't the final model. It was getting
 
 ---
 
-## 🧠 How it works
+## How it works
 
 ```
  RGB image ──► CIELAB ──► L (128×128×1) ──►  ┌──────────────┐        ┌──────────────┐
@@ -69,7 +68,7 @@ The most interesting part of this project wasn't the final model. It was getting
 
 ---
 
-## 🔬 The journey: three models
+## The journey: three models
 
 <img src="assets/training_curves.png" alt="Training and validation loss for the three experiments">
 
@@ -96,7 +95,7 @@ Same architecture, with `BatchNormalization` after every convolution. Normalizin
 
 ---
 
-## 📊 Results
+## Results
 
 Pixel "accuracy" isn't meaningful for a regression task like colorization, so two image-restoration metrics were used:
 
@@ -120,7 +119,7 @@ Final test on random images:
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 ### Option A: Google Colab (easiest)
 Click the **Open in Colab** badge above, choose a **GPU runtime**, upload your own `kaggle.json` when asked, and run all cells.
@@ -128,7 +127,7 @@ Click the **Open in Colab** badge above, choose a **GPU runtime**, upload your o
 ### Option B: Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/landscape-colorization-autoencoder.git
+git clone https://github.com/LayanAlmashhourCodes/landscape-colorization-autoencoder.git
 cd landscape-colorization-autoencoder
 pip install -r requirements.txt
 ```
@@ -156,7 +155,7 @@ python -m src.colorize --model models/colorizer.keras --input path/to/photo.jpg 
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```
 landscape-colorization-autoencoder/
@@ -188,15 +187,15 @@ landscape-colorization-autoencoder/
 
 ---
 
-## 🛠️ Tech stack
+## Tech stack
 
 `Python` · `TensorFlow / Keras` · `NumPy` · `scikit-image` · `Matplotlib` · `Pillow` · `Google Colab (T4 GPU)`
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Dataset: [theblackmamba31 / Landscape color and grayscale images](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization) on Kaggle
 - Inspired by the colorization literature, especially [Zhang et al., *Colorful Image Colorization* (ECCV 2016)](https://arxiv.org/abs/1603.08511)
 
-## 📄 License
+## License
 
 Released under the [MIT License](LICENSE).
