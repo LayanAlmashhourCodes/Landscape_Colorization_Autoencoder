@@ -6,7 +6,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LayanAlmashhourCodes/landscape-colorization-autoencoder/blob/main/notebooks/landscape_colorization.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LayanAlmashhourCodes/Landscape_Colorization_Autoencoder/blob/main/notebooks/landscape_colorization.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
@@ -127,8 +127,8 @@ Click the **Open in Colab** badge above, choose a **GPU runtime**, upload your o
 ### Option B: Run locally
 
 ```bash
-git clone https://github.com/LayanAlmashhourCodes/landscape-colorization-autoencoder.git
-cd landscape-colorization-autoencoder
+git clone https://github.com/LayanAlmashhourCodes/Landscape_Colorization_Autoencoder.git
+cd Landscape_Colorization_Autoencoder
 pip install -r requirements.txt
 ```
 
@@ -158,7 +158,7 @@ python -m src.colorize --model models/colorizer.keras --input path/to/photo.jpg 
 ## Project structure
 
 ```
-landscape-colorization-autoencoder/
+Landscape_Colorization_Autoencoder/
 ├── notebooks/
 │   └── landscape_colorization.ipynb   # full experiment log with outputs (all 3 models)
 ├── src/
