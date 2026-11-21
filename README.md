@@ -4,9 +4,9 @@
 
 ### Bringing black-and-white landscapes back to color with a Convolutional Autoencoder
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LayanAlmashhourCodes/Landscape_Colorization_Autoencoder/blob/main/notebooks/landscape_colorization.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LayanAlmashhourCodes/Landscape_Colorization_Autoencoder/blob/main/notebooks/landscape_colorization.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
