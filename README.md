@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
-**PSNR 27.51 dB · SSIM 0.952** on 100 test images
+**PSNR 27.51 dB · SSIM 0.952**
 
 </div>
 
